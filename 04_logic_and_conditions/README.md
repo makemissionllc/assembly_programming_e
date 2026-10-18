@@ -1,7 +1,6 @@
 # Logic and Conditions — Results
 
 - **Class dates:** 15–16 October 2026
-- **Runtime validation:** 18 October 2026
 
 The source programs do not print their computed values. All five files assembled successfully with NASM as ELF32 objects and linked with `ld -m elf_i386`. Running those original binaries in the current Linux runtime ended with signal 31 (`SIGSYS`, shell status 159) at the `int 0x80` exit call, so their original runtime behavior could not complete here. Temporary 64-bit compatibility probes retained each logic instruction and wrote the resulting byte (or `TEST`'s nonzero predicate) to stdout; the repository sources were left unchanged.
 

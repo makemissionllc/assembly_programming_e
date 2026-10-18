@@ -1,7 +1,6 @@
 # Loops — Results
 
 - **Class dates:** 15–16 October 2026
-- **Runtime validation:** 18 October 2026
 
 All programs assembled with NASM as ELF64 objects and linked with `ld`. Finite examples exited with status 0. The two unbounded runs were limited to 0.1 seconds and stopped by `timeout` (status 124).
 
